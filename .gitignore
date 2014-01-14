@@ -1,0 +1,9 @@
+myredis/
+iron/
+old/
+new/
+backup/
+.#*
+*~
+*.notes
+*flymake*

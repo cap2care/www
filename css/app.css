@@ -1,0 +1,161 @@
+
+
+html, body, #wrapper{ height: 100%; }
+bodyX > #wrapper{height: auto; min-height: 100%; width: auto; min-width: 100%;}
+
+#wrapperX { border: 0px solid red; }
+
+body {
+    backgroundX: url("../img/hero-1440.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-widthX: 100%;
+    heightX: cover;
+}
+
+.row { max-widthX: 990px; max-width: 100%; }
+
+.main-headerX {
+    margin: auto;
+    margin-top: 0px; 
+    margin-bottomX: 21px; 
+    backgroundX: url(/img/cap2care-logo.png) no-repeat center top  #FFF;
+    background-sizeX: 652px;
+    heightX: 352px; 
+    border: 1px solid red;
+}
+
+.main-header h2 { line-height: normal; margin-top: 12px; padding-top: 0; }
+
+.main-header h1 { 
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
+    line-height: 0;
+}
+
+.main-header .branding {
+    top: 40px; 
+    leftX: 30px; 
+    widthX: 476px; 
+    border: 0px solid red;
+    floatX: left;
+    max-width: 987px;
+    margin: auto;
+
+}
+
+.main-header .branding img {
+    opacityX: 0.76;
+}
+
+.main-header .branding .tagline {
+    font-family: Arial, SpiegelCdOTBold; 
+    font-weight: normal; 
+    color: #393939; /** rgba(0,0,0,0.73); **/
+    font-size: 27px; 
+    line-height: normal;
+    letter-spacingX: 9px;
+    positionX: relative;
+    leftX: 7px; 
+}
+
+.main-header .branding .soon { 
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 21px; 
+        color: rgba(0,0,0,0.73);
+}
+
+footer > div {
+    vertical-align: middle; 
+    padding: .4em; 
+}
+
+.copyright { 
+    colorX: #4d4d4d; 
+    color: #888; 
+    margin: auto; 
+    border: 0px solid green; 
+    background-colorX: rgba(0,0,0,0.21);
+    padding: .2em;
+
+}
+
+footer {
+    margin-top: 55px;
+    vertical-align: middle;
+    border: 0px solid yellow;
+
+}
+
+.social {
+    padding-top: 21px; 
+    border: 0px solid red;
+}
+
+#invite {
+    padding-top: 21px; 
+    text-alignX: center;
+    border: 0px solid red;
+
+}
+
+.invite label {
+    font-sizeX: 1.0rem;
+    font-weight: 700;
+    padding-left: 5px;
+    text-alignX: center;
+    border: 0px solid red;
+}
+
+#msgBox {
+    height: 50px;
+}
+
+.mybox {
+    border: 0px solid green;
+}
+
+#invite-controls {
+    float: left;
+    border: 0px solid green;
+    widthX: 476px;  
+    text-align: center;
+}
+
+#bitcoin-badge {
+    padding-topX: 21px; 
+    float: left; 
+    margin-top: -10px;
+    margin-left: -21px;
+    padding-leftX: 13px;
+}
+
+.quote {
+    padding-topX: 21px;
+    color: #555;
+
+}
+
+.sig {
+    padding-top: .5em;
+    display: block;
+}
+
+.mission {
+    max-width: 700px; 
+    margin: auto;
+    padding-topX: 34px; 
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.mission img {
+    padding-right: 10px; 
+}
+
+.event td, th { padding: 5px; }
+
+.event th.when, th.where { text-align: right; color: #555; } 

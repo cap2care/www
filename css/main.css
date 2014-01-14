@@ -1,0 +1,253 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'SpiegelCdOTBold';
+    src: url('../fonts/spiegelcdot-bold-webfont.eot');
+    src: url('../fonts/spiegelcdot-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/spiegelcdot-bold-webfont.woff') format('woff'),
+    url('../fonts/spiegelcdot-bold-webfont.ttf') format('truetype'),
+    url('../fonts/spiegelcdot-bold-webfont.svg#spiegelcdotbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nobr { white-space:nowrap; }
+
+h1, h2, h3 { line-height: 26px; }
+
+h1,h2,h3,h4,h5,h6 { font-family: SpiegelCdOTBold; font-weight: normal; color: #000; }
+h3 { font-size: 19px; }
+h4 { font-size: 17px; }
+
+p, li { line-height: 1.5 em; }
+
+/* link color change #16a5d9 ->  #0099FF */
+
+a { color: #0099FF; 
+    text-decoration: none; 
+    -webkit-transition: all 0.25s linear; 
+    -moz-transition: all 0.25s linear; 
+    -o-transition: all 0.25s linear; 
+    transition: all 0.25s linear; 
+  }
+
+a:hover, a:focus { color: #0099FF; text-decoration: underline;  }
+
+/* See http://www.frequency-decoder.com/demo/slabText/ */
+h1.title { font-size: 89px; margin: 0px; line-height: 1em; }
+h2.tagline { font-size: 38px; color: #666; line-height: 1em;
+	     margin: 0px; padding-top: 25px; }
+p.soon { display: block;
+	 font-family: SpiegelCdOTBold; font-weight: normal;
+	 font-size: 28px; color: #888; line-height: 1em;
+         margin: 0px; padding-top: 45px;}
+div.hero { padding-top: 0px; }
+h1old { font-family: LucidaGrande; 
+        font-size: 42px; font-weight: normal; line-height: 1em; margin-bottom: 0px; }
+header { padding-top: 0px; padding-bottom: 34px; 
+	 background-colorX: #fff; text-alignX: center; }
+#front_logo { margin: auto; width: 422px; padding-bottom: 21px; }
+
+.lead { font-size: 16px; line-height: 26px; }
+.lead a:hover, .lead a:focus { color: #0099FF; text-decoration: underline;  }
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+/* http://twitter.github.com/bootstrap/examples/justified-nav.html */
+
+
+.navbar .navbar-inner {
+    padding: 0 10px;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar .nav li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-left: 1px dotted rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-style: normal; 
+    text-transform: uppercase; 
+    letter-spacing: .2em; 
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px;
+}
+.navbar .nav li.last a  {
+    border-right: 1px dotted rgba(255, 255, 255, 0.3);
+}
+
+.navbar .nav li a:hover, .navbar .nav li a:focus { color: #f16251; }
+.navbar .nav li a:active { background-color: #fff; color: #202020; }
+.navbar .nav li.transit a { color: #f16251; }
+
+.content { padding-top: 20px; }
+
+/* section headers */
+.content section { padding-top: 10px;  /* 5em; */ 
+		   
+		   overflow: hidden; 
+		 }
+.content section header { max-width: 480px; 
+			  margin: auto; 
+			  text-align: center; 
+			  margin-bottom: 26px; 
+			  border-top: 2px dotted #d3d5d4; 
+			  border-bottom: 2px dotted #d3d5d4; 
+			  text-align: center; 
+			  padding: 1em 0; 
+			}
+.content section h2 { font-size: 50px; line-height: 50px; margin-top: 0; }
+.content section header h2 { margin-bottom: 6px; }
+.content section header h2 { margin-bottom: 12px; }
+.subhead { display: block; 
+	   color: #777; 
+	   font-size: 22px; 
+	   line-height: 31px; 
+	   font-weight: 500; 
+	   font-style: normal; 
+	   margin: 0; }
+.subhead a { text-decoration: underline; color: #777; }
+.subhead a:hover, .subhead a:focus { color: #30707b; }
+
+.clickbox {border: 1px solid #FFF; padding: 10px; }
+.clickbox:hover { border: 1px solid #DDD; background: #efefef; }
+.clickbox a:hover, 
+.clickbox a:focus { text-decoration: none; }
+
+
+/****** Social **************/
+.socialX { padding-top: 34px; padding-bottom: 34px; }
+.social .middle { padding-left: 15px; }
+
+
+/****** Cap2care **************/
+ 
+.content section#cap2care { margin-top: 0; }
+#cap2care h3 { margin-bottom: 11px; }
+#cap2care .icon { min-width: 106px; border: 0; padding: 0; height: 145px; }
+#cap2care .description {  min-width: 196px;}
+#cap2care .toolkit p { color: #333; margin-top: 0; line-height: 1.2em; } 
+#cap2care .row-fluid [class*="span"] { margin: 0; }
+
+/* http://stackoverflow.com/questions/1260122/expand-div-to-take-remaining-width */
+
+
+/****** News **************/
+#tweetList .item { min-height: 236px; }
+
+/****** Book **************/
+#book h3, #book li { line-height: 1.5em; }
+#bookX .row-fluid { padding-bottom: 21px; }
+#book h3, #book p { margin-top: 1em; }
+#book p, #book ol,  { margin-bottom: .5em; }
+#book li { list-style-type: decimal; padding-bottom: .5em; }
+#book li span { font-weight: bold; }
+#book li span:after { padding-right: 8px; }
+#book .gremlin-variants li { padding-bottom: 0em; }
+
+
+/****** Authors **************/
+#mission .row-fluid { margin-bottom: 10px; }
+#mission p { line-height: 1.5em; }
+#mission .photo img { max-width: 110px; border: 1px solid black; margin: 0; padding: 0; }
+
+
+/****** Resources **************/
+#resources hr { margin: 0; padding-bottom: 11px; }
+/* http://css-tricks.com/simple-styles-for-horizontal-rules/ */
+#resoucesX hr 
+{
+    borderX:0;
+    height:1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+#resources li { line-height: 1.5em; }
+#resources ul { padding-left: 0; margin-left: 0; font-size: 14px; }
+#resources li { list-style-type: none; line-height: 1.2em; }
+ul.spaced li { padding-bottom: 11px; }
+ul.spaced li.top { border-bottom: 1px solid #ddd; margin-bottom: 11px; }
+ul.members-list li{display:block;border-bottom:1px solid #f1f1f1;width:inherit}
+ul.members-list{font-size:0;margin:5px 0; padding-left: 0;}
+ul.members-list li{display:inline-block;width:165px;position:relative;list-style-type:none;min-height:48px;margin:0;padding:10px 0 10px 58px;vertical-align:top}
+ul.members-list li h4{margin:-1px 0 0 0;font-size:16px;line-height:1.2}
+ul.members-list li h4 a{display:inline-block;text-overflow:ellipsis;overflow-x:hidden;width:100%}
+ul.members-list li h4 em{font-style:normal;font-weight:normal;color:#99a7af;display:block}
+ul.members-list li p{margin:-1px 0 0 0;font-size:11px;color:#bbb}
+ul.members-list .gravatar{float:left;margin-left:-58px;border-radius:3px}
+ul.members-list .placeholder .gravatar{opacity:0.5}
+ul.members-list .placeholder h4 a{color:#999}
+ul.members-list .minibutton{position:absolute;top:10px;right:0}
+ul.members-list p.details span.mini-icon{margin-left:15px;vertical-align:middle}
+ul.members-list p.details span.mini-icon:first-child{margin-left:0}
+
+
+
+
+/****** Footer **************/
+
+#copyright { color: #777; padding: 0px; }
+#copyright a { color: #777; text-decoration: none; }
+#copyright a:hover { color: #777; text-decoration: underline; }
+
+
+/****** Media Queries **************/
+
+
+@media (min-width: 1200px) {
+    #cap2care .row-fluid .span4 {
+	width: 33.2323232%;  /* 307  990 */
+	/* *width: 31.570740134569924%; */
+    }
+    .carousel-control {
+	top: 80px;
+	margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 979px) {
+
+  /* body padding-top is 60px to account for the fixed navbar */
+  body { padding-topX: 60px; padding-bottomX: 40px; }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    position: fixed;
+  }
+}
+
+@media (max-width: 480px) {
+    .navbar .nav li a { font-size: 11px; padding: 10px 2px 10px; }
+    .content { padding-top: 21px; }
+    h1.title { font-size: 50px; }
+    h2.tagline { font-size: 21px; padding-top: 18px; }
+    p.soon { font-size: 16px; padding-top: 21px; }
+    div.hero { padding-top: 18px; }
+    .content section { padding-top: 18px; }
+    .content section h2 { font-size: 34px; line-height: 34px; }
+    .subhead { font-size: 16px; line-height: 24px; }
+    .carousel { margin-bottom: 60px; }
+    .carousel-control {
+	top: auto;
+	margin-top: 0px;
+    }
+}
+
